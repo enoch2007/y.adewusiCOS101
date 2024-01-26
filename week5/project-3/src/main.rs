@@ -31,8 +31,7 @@ fn main() {
 
     // Quantity of food
     let mut quantity = String::new();
-
-    println!("Enter the quantity you need:");
+println!("Enter the quantity you need:");
     io::stdin()
         .read_line(&mut quantity)
         .expect("Failed to read line");
